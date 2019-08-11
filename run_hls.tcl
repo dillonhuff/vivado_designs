@@ -1,6 +1,6 @@
 open_project -reset cosim
-set_top cosim
-add_files cosim.cpp
+set_top histogram_forward
+add_files hist_forward.cpp
 
 add_files -tb test.cpp
 
